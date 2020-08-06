@@ -32,7 +32,6 @@ const sqlStatement = {
   deletePaperQuestion:'DELETE FROM paper_question WHERE Paper_id = ?;',
   getPaperDetail:'SELECT * FROM paper WHERE Paper_id=?;' +
     'SELECT * FROM question a JOIN paper_question b ON a.Question_id = b.Question_id  WHERE Paper_id=?;',
-  getPaperQusetion:'SELECT * FROM question a RIGHT JOIN paper_question b ON a.Question_id = b.Question_id  WHERE Paper_id=?;',
-  
+  getPaperQusetion:'SELECT * FROM question a RIGHT JOIN paper_question b ON a.Question_id = b.Question_id  WHERE Paper_id=?;'
 }
 module.exports = sqlStatement
