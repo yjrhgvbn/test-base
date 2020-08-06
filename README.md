@@ -1,10 +1,10 @@
 # test-base
 
-<<<<<<< HEAD
+
 > 试卷管理系统
 =======
 > 基于vue实现的试卷管理系统，包括了vue，nodejs和mysql，运行时需要先修改运行server目录下的server.js
->>>>>>> 9d2748786523fcc2121e6843aad30ac122be953c
+
 
 ## Build Setup
 
