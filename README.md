@@ -1,6 +1,6 @@
 # test-base
 
-> A Vue.js project
+> 基于vue实现的试卷管理系统，包括了vue，nodejs和mysql，运行时需要先修改运行server目录下的server.js
 
 ## Build Setup
 
